@@ -47,7 +47,6 @@ function check() {
   }
 }
 
-
 function trackMouseOn() {
   // console.log('backgroundColor');
   isHovering = true;
@@ -61,8 +60,6 @@ function trackMouseOff() {
   var background = document.querySelector('#clock');
   background.style.backgroundColor = "rgba(234, 110, 203, 0.6)";
 }
-
-
 
 clockCol.addEventListener('mouseenter', trackMouseOn);
 clockCol.addEventListener('mouseleave', trackMouseOff);

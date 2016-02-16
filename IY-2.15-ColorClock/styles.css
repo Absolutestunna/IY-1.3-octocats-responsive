@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#clock {
+  height: 500px;
+  width: cover;
+  color: white;
+  background-color: green;
+  text-align: center;
+  line-height: 300px;
+  font-family: "Andale Mono", sans-serif;
+  font-size: 80px;
+}
+#myProgress {
+  width: 500px;
+  height: 30px;
+  position: relative;
+  background-color: #ddd;
+  border: 5px solid black;
+}
+#myBar {
+  background-color: #4CAF50;
+  width: 10px;
+  height: 30px;
+  position: absolute;
+}

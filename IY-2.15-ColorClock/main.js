@@ -52,14 +52,14 @@ function trackMouseOn() {
   // console.log('backgroundColor');
   isHovering = true;
   var background = document.querySelector('#clock');
-  background.style.backgroundColor = 'pink';
+  background.style.backgroundColor = "rgba(231, 142, 32, 0.6)";
 }
 
 function trackMouseOff() {
   // console.log('mouseleave');
   isHovering = false;
   var background = document.querySelector('#clock');
-  background.style.backgroundColor = 'grey';
+  background.style.backgroundColor = "rgba(234, 110, 203, 0.6)";
 }
 
 

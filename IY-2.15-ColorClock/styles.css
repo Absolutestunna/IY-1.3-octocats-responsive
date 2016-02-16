@@ -6,7 +6,8 @@ body {
   height: 500px;
   width: cover;
   color: white;
-  background-color: green;
+  margin: 0;
+  background-color: rgba(110, 234, 121, 0.5);
   text-align: center;
   line-height: 300px;
   font-family: "Andale Mono", sans-serif;
@@ -14,14 +15,17 @@ body {
 }
 #myProgress {
   width: 500px;
-  height: 30px;
+  height: 5px;
   position: relative;
   background-color: #ddd;
-  border: 5px solid black;
+  top: -250px;
+  left: 30%;
+  right: 25%;
+  border-radius: 35%;
 }
 #myBar {
   background-color: #4CAF50;
-  width: 10px;
-  height: 30px;
+  width: 100px;
+  height: 5px;
   position: absolute;
 }

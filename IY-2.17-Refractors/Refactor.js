@@ -73,7 +73,6 @@ setTimeout(function(){
 // Please explain your answer.
 
 var letter = "x";
-console.log(letter)
 
 setTimeout(function(){
   letter = "y";
@@ -84,7 +83,8 @@ letter = "z";
 console.log("The letter is", letter);
 
 // Put your answer below -------------------------
-
+//C. The Z will appear first because starting from the top, the log method will
+//be operated on before the setTimeout is done.
 
 // -----------------------------------------------
 

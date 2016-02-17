@@ -73,6 +73,7 @@ setTimeout(function(){
 // Please explain your answer.
 
 var letter = "x";
+console.log(letter)
 
 setTimeout(function(){
   letter = "y";
@@ -142,14 +143,15 @@ var spanishColor = function(colorName) {
 
 // Put your answer below -------------------------
 var spanishColor = function(colorName) {
-  colorName = {
-    "rojo": "#ff0000",
-    "blanco": "#ffffff",
-    "azul": "#0000ff",
-    "verde": "#00ff00",
-    "negro": "#000000"
-  };
+  var colorList = {
+    rojo: "#ff0000",
+    blanco: "#ffffff",
+    azul: "#0000ff",
+    verde: "#00ff00",
+    negro: "#000000"
+  }; return colorList.rojo;
 };
+   spanishColor();
 
 // -----------------------------------------------
 
@@ -329,6 +331,14 @@ var callLater = function(timeout, callback) {
 };
 
 // Put your answer below -------------------------
+var checkFun(a, b){
+  if (arguments.length == 2){
+    callLater(a, b);
+  }else {
+    callLater(1000, a);
+  }
+}
+checkFun(func)
 
 
 // -----------------------------------------------
